@@ -1,4 +1,3 @@
-#praplanilha
 Codigos Para Integração Com Planilha Google
 
 Encontrar Pasta Via cmd: cd C:desktop
