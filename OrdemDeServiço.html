@@ -10,17 +10,49 @@
 <body>
     
     <form method="post" id="teste" action="https://sheetdb.io/api/v1/my8nga5lm5r3t">
-        <center>
-        <div class="div form">
-            <h5>Nome:</h5><input name="data[Nome:]" class="caixa nome">
-            <h5>CPF:</h5><input type="number" name="data[CPF:]" class="caixa cpf">
-            <h5>OS:</h5><input type="number" name="data[OS:]" class="caixa os">
-            <p></p><button type="submit" class="sendButton">Enviar</button></p>
-        </div>
-        </center>
-    </form>
-    
+        <div class="container">
+            <div class="div form">
+                <h5>Nome:</h5>
+                <input name="data[Nome:]" class="caixa nome">
+                
+                <h5>CPF:</h5>
+                <input type="number" name="data[CPF:]" class="caixa cpf">
+                
+                <h5>OS:</h5>
+                <input type="number" name="data[OS:]" class="caixa os">
+                
+                <h5>Entrada:</h5>
+                <input name="data[Entrada:]" class="caixa Entrada">
 
+                <h5>Endereço:</h5>
+                <input name="data[Endereço:]" class="caixa Endereço">
+            </div>
+
+            <div class="div form">
+                <h5>Telefone:</h5>
+                <input name="data[Telefone:]" class="caixa Telefone">
+
+                <h5>Celular:</h5>
+                <input name="data[Celular:]" class="caixa Celular">
+
+                <h5>Tipo de Serviço:</h5>
+                <select name="data[Tipo de Serviço:]" class="caixa TipoDeServico">
+                    <option>Troca de Frontal</option>
+                    <option>Troca de Conector</option>
+
+                </select>
+
+                <h5>Observação:</h5>
+                <input name="data[Observação:]" class="caixa Observação">
+
+                <button type="submit" class="sendButton">Enviar</button>
+            </div>
+            
+        </div>
+            
+        
+        
+    </form>
     
 
 </body>
